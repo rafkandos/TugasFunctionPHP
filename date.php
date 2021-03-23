@@ -12,4 +12,7 @@
 
     //#TASK 4
     echo date("l, d-M-Y", mktime(0, 0, 0, date("m"), date("d") - 500, date("Y"))) ."<br><br>";
+
+    //#TASK 5
+    echo date("l", mktime(0, 0, 0, 10, 10, 2001)) ."<br><br>";
 ?>
