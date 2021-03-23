@@ -15,4 +15,7 @@
 
     //#TASK 5
     echo date("l", mktime(0, 0, 0, 10, 10, 2001)) ."<br><br>";
+
+    //#TASK 6
+    echo date("l", strtotime("10 october 2030")) ."<br><br>";
 ?>
